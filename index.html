@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Confessions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="initializeApp()">
+    <header class="header">
+        <h1>College Confessions</h1>
+        <button class="new-confession-btn">Share Your Confession</button>
+    </header>
+
+    <main class="confession-feed">
+        <article class="confession-card">
+            <p class="confession-text">I've been pretending to understand calculus all semester but I'm completely lost. Too embarrassed to ask for help now.</p>
+            <div class="interaction-bar">
+                <div class="vote-buttons">
+                    <button class="vote-btn upvote">⬆️ 42</button>
+                    <button class="vote-btn downvote">⬇️ 5</button>
+                </div>
+                <button class="like-btn">❤️ 128</button>
+                <button class="comment-btn">💬 23</button>
+            </div>
+            <div class="comments-section">
+                <div class="comment">It's never too late to ask for help! The math tutoring center is super friendly.</div>
+                <div class="comment">Same here! Maybe we should start a study group?</div>
+            </div>
+        </article>
+
+        <article class="confession-card">
+            <p class="confession-text">I accidentally set off the library alarm today when I was running late to class. Sorry everyone! 🏃‍♂️</p>
+            <div class="interaction-bar">
+                <div class="vote-buttons">
+                    <button class="vote-btn upvote">⬆️ 15</button>
+                    <button class="vote-btn downvote">⬇️ 2</button>
+                </div>
+                <button class="like-btn">❤️ 45</button>
+                <button class="comment-btn">💬 8</button>
+            </div>
+        </article>
+    </main>
+
+    <!-- The theme toggle will be added dynamically by script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
